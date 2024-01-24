@@ -1,1 +1,2 @@
 # flexproject
+This project will test my knowledge of HTML, CSS, and Flexbox, concluding my first 32 lessons of the Odin Project before site functionality is explored through the coming Javascript lessons. For this project, I will be creating a basic website layout from scratch based on the provided reference image of layout and styling.
