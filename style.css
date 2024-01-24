@@ -1,58 +1,81 @@
-.header {
+body {
+    font-family: "Hero", "Roboto", Arial, Helvetica, sans-serif;
+}
 
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 .header-bar {
-
+display: flex;
+align-items: center;
 }
 
 .header-logo {
-
+font-size: 24px;
+color: #F9FAF8;
 }
 
 .header-links {
-
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: auto;
+    gap: 16px;
 }
 
 .header-content {
-
+display: flex;
 }
 
 .header-content-left {
-
+flex: 1;
 }
 
 .header-content-right {
-
+flex-grow: 1;
 }
 
 .header-title {
-
+font-size: 48px;
+color:#F9FAF8;
 }
 
 .content {
-
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 button {
-
+background-color: #3882F6;
 }
 
 .information {
-
+text-align: center;
+margin: 48px;
 }
 
 .title {
-
+font-size: 36px;
+font-style: extra-bold;
+color: #1F2937;
+margin-bottom: 32px;
 }
 
 .container {
-
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
 
 .information-items {
-
+max-width: 200px;
 }
+
 
 .info {
 
@@ -62,19 +85,52 @@ button {
 
 }
 
-.quote {
+img {
+    width: 100px;
+    height: 100px;
+}
 
+.information-images {
+    border: 2px #3882F6;
+    border-radius: 25px; 
+}
+
+.quote {
+background-color: #E5E7EB;
+display: flex;
+padding: 48px;
+flex-direction: column;
+margin: 0;
 }
 
 .quote-text {
-
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: start;
+    align-self: flex-start;
 }
 
 .quote-author {
-    
+justify-content: end;
+align-self: flex-end;
 }
 
 .sign-up {
+    background-color: #3882F6;
+    margin: 48px 192px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.sign-up-info {
+
+}
+
+.sign-up-header {
 
 }
 
@@ -83,10 +139,15 @@ button {
 }
 
 .sign-up-button {
-
+    background-color: #3882F6;
 }
 
 .footer {
-
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #1F2937;
+color: #E5E7EB;
+font-size: 18px;
 }
 
